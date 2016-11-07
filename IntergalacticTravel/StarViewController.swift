@@ -10,8 +10,19 @@ import UIKit
 
 class StarViewController: UIViewController {
 
+    var isBLueStar: Bool?
     override func viewDidLoad() {
         super.viewDidLoad()
+        if isBLueStar!
+        {
+            view.backgroundColor = UIColor.blue
+            starImageView.image = UIImage(named: "blueStar")
+        }
+        else
+        {
+            view.backgroundColor = UIColor.red
+            starImageView.image = UIImage(named: "redDwarf")
+        }
 
         // Do any additional setup after loading the view.
     }

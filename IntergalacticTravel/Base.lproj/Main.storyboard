@@ -79,19 +79,14 @@
         <scene sceneID="YSn-8n-n7E">
             <objects>
                 <viewController id="6w9-93-K69" customClass="StarViewController" customModule="IntergalacticTravel" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Bw6-EM-uKf"/>
-                        <viewControllerLayoutGuide type="bottom" id="kgI-fi-EoZ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="J6A-zU-huu">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="ZQs-bX-3wf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lLr-2L-sLN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1929" y="139"/>
+            <point key="canvasLocation" x="1928.985507246377" y="138.58695652173915"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

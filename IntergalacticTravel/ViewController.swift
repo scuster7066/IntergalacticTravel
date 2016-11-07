@@ -16,10 +16,22 @@ class ViewController: UIViewController {
     }
 
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+        
+    func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            let nextViewController = segue.destination as! StarViewController
+            let button = sender as! UIButton
+            nextViewController.title = button.currentTitle
+            if segue.identifier == "blueStarSegue"
+            {
+                nextViewController.isBLueStar = true
+            }
+            else
+            {
+                nextViewController.isBLueStar = false
+            }
+        }
 
 
 }
 
+}
